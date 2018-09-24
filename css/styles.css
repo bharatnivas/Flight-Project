@@ -1,0 +1,10 @@
+.headerwithhero{
+    background-image: url(../images/cloud1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 623px;
+}
+.hero-content-two > img {
+    max-width: 100%;
+    height: auto;
+}
