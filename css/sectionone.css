@@ -243,3 +243,32 @@ body{
 .sectionseven h6{
     margin: 0;
 }
+@media only screen and (max-width: 768px){
+    .header-right {
+        float: none;
+        padding: 0;
+    }
+    .header-right > ul li a{
+        padding:0 0 0 14px;
+    }
+    .hero-content-two > img{
+        padding-bottom: 50px;
+    }
+    .sectiontwobox.two{
+        margin:0;
+    }
+    .sectiontwobox.three{
+        margin:0;
+        height:100%;
+        padding: 0 0 30px 0;
+    }
+    .sectionthree{
+        padding:0 15px 0 15px;
+    }
+    .sectionthreecontent{
+        margin: 0 0 15px 15px;
+    }
+    .sectionthreecontent >p {
+        font-size: 13px;
+    }
+}
