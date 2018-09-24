@@ -33,6 +33,7 @@ body{
 }
 .header-left {
     padding-left: 50px;
+    padding-top: 17px;
 }
 .header-right > ul li {
     display: inline;
@@ -75,7 +76,7 @@ body{
 }
 /* sectiontwo */
 .sectiontwo {
-    padding: 0% 7% 0px 7%;
+    padding: 2% 7% 0px 7%;
     margin-bottom: 8%;
 }
 .sectiontwo > img{
@@ -157,12 +158,21 @@ body{
     border-top: 2px solid #fff;
     color: #fff;
 }
-.sectionthree{
-    padding:50px;
+.sectiontwobox.three >a {
+    background-color: #fff;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 0 0 0 6%;
+    border-radius: 4px;
+    color: #000;
+}
+.sectionthree {
+    padding: 50px 50px 3% 50px;
 }
 .sectionthreecontent {
     background-color: #fff;
     margin: 0 0 0 14px;
+    box-shadow: 0 8px 6px -6px black;
     padding: 30px 30px 30px 30px;
     text-align: center;
     border-radius: 30px;
@@ -170,7 +180,8 @@ body{
 .sectionthree > h1 {
     text-align: center;
     padding: 0 0 100px 0;
-    color: black;
+    font-weight: 900;
+    color: #16336c;
     font-size: 40px;
 }
 .sectionthreecontent >img {
@@ -186,7 +197,7 @@ body{
 }
 .sectionfive {
     text-align: center;
-    padding: 5% 0 0 0;
+    padding: 5% 0 3% 0;
 }
 .sectionfive-content > h1 {
     font-weight: 900;
@@ -196,6 +207,14 @@ body{
     color: black;
     font-size: 20px;
     padding: 15px 0 3px 0;
+}
+.sectionfive-content > p span a {
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 13px;
+    margin: 0 0 0 13px;
+    color: #fff;
+    font-weight: 600;
 }
 .sectionsix{
     background-color: #16336c;
