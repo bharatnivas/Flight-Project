@@ -272,3 +272,36 @@ body{
         font-size: 13px;
     }
 }
+@media only screen and (max-width: 576px){
+    .hero-content > h1{
+        font-size: 30px;
+    }
+    .hero-content > h2{
+        font-size: 30px;
+    }
+    .hero-content > p {
+        font-size: 20px;
+        padding: 0 0 24px 0;
+    }
+    .hero-content > a {
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    .sectionthree > h1{
+        padding-bottom: 30px;
+        font-size:20px;
+    }
+    .sectionfour > h1{
+        font-size: 20px;
+    }
+    .sectionfive-content > h1{
+        font-size: 20px;
+    }
+    .sectionfive-content >p{
+        font-size: 15px;
+    }
+    .sectionfive-content > p span a{
+        padding: 7px 9px;
+        font-size: 12px;
+    }
+}
