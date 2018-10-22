@@ -273,6 +273,11 @@ body{
     }
 }
 @media only screen and (max-width: 576px){
+    .header-left > img {
+        width: 154px;
+        padding: 4px;
+        margin: 0;
+    }
     .hero-content > h1{
         font-size: 30px;
     }
